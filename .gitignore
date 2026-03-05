@@ -426,3 +426,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# JetBrains Rider / IntelliJ Specific
+.idea/
+*.sln.iml
+*.idea.iml
+cmake-build-*/
+.run/
