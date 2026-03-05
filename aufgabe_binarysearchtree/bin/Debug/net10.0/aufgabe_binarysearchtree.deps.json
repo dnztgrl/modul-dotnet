@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "aufgabe_binarysearchtree/1.0.0": {
+        "runtime": {
+          "aufgabe_binarysearchtree.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aufgabe_binarysearchtree/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
