@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Collections;
 using System.IO;
 
-namespace aufgabe_collection_tac
+namespace aufgabe_collection_worthaeufigkeit
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Generisches Dictionary für die Worthäufigkeit
+            // Dictionary für die Worthäufigkeit
             Dictionary<string, int> counter = new Dictionary<string, int>();
             
-            string path = @"C:\Users\Deniz\Proton Drive\deniztugrul\My files\ITA3-MeineDateien\07. dotNET\02 - RegEx\Aufgaben\Froschkönig Unix Zeilenumbrüche.txt";
+            string path = @"/Users/deniztugrul/Library/CloudStorage/ProtonDrive-deniztugrul@protonmail.com-folder/ITA3-MeineDateien/07. dotNET/02 - RegEx/Aufgaben/Froschkönig Unix Zeilenumbrüche.txt";
             string[] lines = File.ReadAllLines(path);
 
             // Zeilen durchlaufen
