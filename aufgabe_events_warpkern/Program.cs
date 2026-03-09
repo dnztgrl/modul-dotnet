@@ -21,8 +21,5 @@ class Program
         Console.WriteLine("===== TEST ÜBERHITZUNGSWARNUNG =====");
         wp.WarpkernTemperatur = 550;
         wp.WarpkernTemperatur = 750;
-
-        wp.WarpkernTemperatur = 300;
-
     }
 }
