@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_delegates_grossklei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_delegates_arrayminmax", "aufgabe_delegates_arrayminmax\aufgabe_delegates_arrayminmax.csproj", "{EBFC4087-E0C7-4749-9217-4C98D2E72DAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_delegates_logger", "aufgabe_delegates_logger\aufgabe_delegates_logger.csproj", "{FAAF04AF-2D48-465E-9F7B-43768461F913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,10 @@ Global
 		{EBFC4087-E0C7-4749-9217-4C98D2E72DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFC4087-E0C7-4749-9217-4C98D2E72DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFC4087-E0C7-4749-9217-4C98D2E72DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAF04AF-2D48-465E-9F7B-43768461F913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAF04AF-2D48-465E-9F7B-43768461F913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAF04AF-2D48-465E-9F7B-43768461F913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAF04AF-2D48-465E-9F7B-43768461F913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46217D5-1350-4583-BAA6-3945F81CE41E} = {6265E9DC-01C0-463F-A41C-05D93BF623F1}
@@ -113,5 +119,6 @@ Global
 		{45F20F92-DD9E-4561-970B-B58BF686905C} = {EDA1E33F-37C1-4BF4-91CA-00D2AF93852A}
 		{F6B29CAD-8309-44EA-9C58-9BCD82B19537} = {A00F9134-F316-4391-99A4-CAECEC9703CD}
 		{EBFC4087-E0C7-4749-9217-4C98D2E72DAE} = {A00F9134-F316-4391-99A4-CAECEC9703CD}
+		{FAAF04AF-2D48-465E-9F7B-43768461F913} = {A00F9134-F316-4391-99A4-CAECEC9703CD}
 	EndGlobalSection
 EndGlobal
