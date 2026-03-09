@@ -16,9 +16,11 @@ class Program
 
         ArrayMinMax arrayMinMax = new ArrayMinMax();
         
+        // IstKleiner als Delegate übergeben - sucht Index des kleinsten Wertes
         int minIndex = arrayMinMax.GetLimit(arrayMinMax.IstKleiner, zufallsZahlen);
         Console.WriteLine($"Kleinster Wert: {zufallsZahlen[minIndex]} an Index {minIndex}");
 
+        // IstGroesser als Delegate übergeben - sucht Index des größten Wertes
         int maxIndex = arrayMinMax.GetLimit(arrayMinMax.IstGroesser, zufallsZahlen);
         Console.WriteLine($"Größter Wert: {zufallsZahlen[maxIndex]} an Index {maxIndex}");
     }
