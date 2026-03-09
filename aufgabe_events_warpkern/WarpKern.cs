@@ -1,8 +1,8 @@
 namespace aufgabe_events_warpkern;
 
 // Delegate-Typen für beide Events
-public delegate void TemperaturAenderungEventHandler(object sender, WarpKernTemperaturEventArgs e);
-public delegate void UeberhitzungsWarnungEventHandler(object sender, WarpKernTemperaturEventArgs e);
+public delegate void TemperaturAenderungEventHandler(WarpKernTemperaturEventArgs e);
+public delegate void UeberhitzungsWarnungEventHandler(WarpKernTemperaturEventArgs e);
 
 public class WarpKern
 {
@@ -28,13 +28,13 @@ public class WarpKern
             // Temperaturänderungs-Event auslösen, wenn Subscriber vorhanden
             if (TemperaturAenderung != null)
             {
-                TemperaturAenderung(this, e);
+                TemperaturAenderung(e);
             }
 
             // Überhitzungswarnung-Event auslösen, wenn Subscriber vorhanden & Temperatur > 500
             if (value > 500 && UeberhitzungsWarnung != null)
             {
-                UeberhitzungsWarnung(this, e);
+                UeberhitzungsWarnung(e);
             }
 
             _warpkernTemperatur = value;
