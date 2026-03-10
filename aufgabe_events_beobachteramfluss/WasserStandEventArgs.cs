@@ -1,6 +1,6 @@
 namespace aufgabe_events_beobachteramfluss;
 
-public class WasserStandEventArgs
+public class WasserStandEventArgs : EventArgs
 {
     private int _wasserstand;
 
