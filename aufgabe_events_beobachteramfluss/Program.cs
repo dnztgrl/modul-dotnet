@@ -35,7 +35,7 @@ class Program
         donau.WasserstandUeber8000 += strauß1.AusgabeEinleitungStop;
         donau.WasserstandUnter3000 += strauß1.AusgabeEinleitungSteigern;
 
-        // Normaler Wasserstand - Klärwerke an der Donau steigern ihre Einleitung, sonst passiert nichts
+        // Normaler Wasserstand - Klärwerke an der Donau steigern ihre Einleitung (Wasserstand < 3000), sonst passiert nichts
         Console.WriteLine("\n===== TEST | NORMALER WASSERSTAND | KLÄRWERK AN DER DONAU STEIGERT EINLEITUNG =====");
         rhein.Wasserstand = 1000;
         donau.Wasserstand = 1000;
@@ -45,7 +45,7 @@ class Program
         rhein.Wasserstand = 150;
         donau.Wasserstand = 150;
         
-        // Wasserstand > 8300 - Schiffe halten an, Klärwerke stoppen ihre Einleitungen, Städte errichten eine Wasserschutzwand
+        // Wasserstand > 8200 - Schiffe halten an, Klärwerke stoppen ihre Einleitungen, Städte errichten eine Wasserschutzwand
         Console.WriteLine("===== TEST | WASSERSTAND > 8300 | KLÄRWERK AN DER DONAU STOPPT EINLEITUNG, STÄDTE ERRICHTEN WASSERSCHUTZWAND & SCHIFFE HALTEN AN =====");
         rhein.Wasserstand = 8300;
         donau.Wasserstand = 8300;
