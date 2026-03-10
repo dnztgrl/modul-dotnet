@@ -46,7 +46,7 @@ class Program
         donau.Wasserstand = 150;
         
         // Wasserstand > 8200 - Schiffe halten an, Klärwerke stoppen ihre Einleitungen, Städte errichten eine Wasserschutzwand
-        Console.WriteLine("===== TEST | WASSERSTAND > 8300 | KLÄRWERK AN DER DONAU STOPPT EINLEITUNG, STÄDTE ERRICHTEN WASSERSCHUTZWAND & SCHIFFE HALTEN AN =====");
+        Console.WriteLine("===== TEST | WASSERSTAND > 8200 | KLÄRWERK AN DER DONAU STOPPT EINLEITUNG, STÄDTE ERRICHTEN WASSERSCHUTZWAND & SCHIFFE HALTEN AN =====");
         rhein.Wasserstand = 8300;
         donau.Wasserstand = 8300;
     }
