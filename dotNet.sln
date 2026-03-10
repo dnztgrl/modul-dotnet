@@ -48,6 +48,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_events_warpkern", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_events_beobachteramfluss", "aufgabe_events_beobachteramfluss\aufgabe_events_beobachteramfluss.csproj", "{85FDD286-3DED-4D24-AE8F-74DF6DE77237}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_events_trigger", "aufgabe_events_trigger\aufgabe_events_trigger.csproj", "{13B1BA9F-54CF-444A-AB6D-FCF32A27F185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -118,6 +120,10 @@ Global
 		{85FDD286-3DED-4D24-AE8F-74DF6DE77237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85FDD286-3DED-4D24-AE8F-74DF6DE77237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85FDD286-3DED-4D24-AE8F-74DF6DE77237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46217D5-1350-4583-BAA6-3945F81CE41E} = {6265E9DC-01C0-463F-A41C-05D93BF623F1}
@@ -136,5 +142,6 @@ Global
 		{FAAF04AF-2D48-465E-9F7B-43768461F913} = {A00F9134-F316-4391-99A4-CAECEC9703CD}
 		{3296C759-88A1-4A2C-8984-D8DAA4760236} = {7B40BDAE-1100-4FF7-BBE2-4F970C08077A}
 		{85FDD286-3DED-4D24-AE8F-74DF6DE77237} = {7B40BDAE-1100-4FF7-BBE2-4F970C08077A}
+		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185} = {7B40BDAE-1100-4FF7-BBE2-4F970C08077A}
 	EndGlobalSection
 EndGlobal
