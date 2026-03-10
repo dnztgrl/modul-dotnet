@@ -3,7 +3,7 @@ namespace aufgabe_events_warpkern;
 public class WarpkernKonsole
 {
     // Event-Handler für Temperaturänderungen
-    public void AusgabeTemperaturAenderung(WarpKernTemperaturEventArgs e)
+    public void AusgabeTemperaturAenderung(object sender, WarpKernTemperaturEventArgs e)
     {
         Console.WriteLine($"Alte Temperatur: {e.AlteTemp}");
         Console.WriteLine($"Neue Temperatur: {e.NeueTemp}");
@@ -11,7 +11,7 @@ public class WarpkernKonsole
     }
 
     // Event-Handler für Überhitzungwarnung
-    public void AusgabeUeberhitzungswarnung(WarpKernTemperaturEventArgs e)
+    public void AusgabeUeberhitzungswarnung(object sender, WarpKernTemperaturEventArgs e)
     {
         Console.WriteLine($"Überhitzungswarnung!\nAktuelle Temperatur: {e.NeueTemp}\n");
     }
