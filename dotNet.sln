@@ -54,6 +54,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_dateien", "08_dateien", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_dateien_dateisuche", "aufgabe_dateien_dateisuche\aufgabe_dateien_dateisuche.csproj", "{85B03E94-66C7-4C06-B21C-E5301510E537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_dateien_filesystemwatcher", "aufgabe_dateien_filesystemwatcher\aufgabe_dateien_filesystemwatcher.csproj", "{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -132,6 +134,10 @@ Global
 		{85B03E94-66C7-4C06-B21C-E5301510E537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85B03E94-66C7-4C06-B21C-E5301510E537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85B03E94-66C7-4C06-B21C-E5301510E537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46217D5-1350-4583-BAA6-3945F81CE41E} = {6265E9DC-01C0-463F-A41C-05D93BF623F1}
@@ -152,5 +158,6 @@ Global
 		{85FDD286-3DED-4D24-AE8F-74DF6DE77237} = {7B40BDAE-1100-4FF7-BBE2-4F970C08077A}
 		{13B1BA9F-54CF-444A-AB6D-FCF32A27F185} = {7B40BDAE-1100-4FF7-BBE2-4F970C08077A}
 		{85B03E94-66C7-4C06-B21C-E5301510E537} = {B2C1C8E0-54EC-4DB7-9544-9AF59DB3253C}
+		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF} = {B2C1C8E0-54EC-4DB7-9544-9AF59DB3253C}
 	EndGlobalSection
 EndGlobal
