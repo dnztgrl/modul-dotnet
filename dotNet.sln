@@ -60,6 +60,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_json", "09_json", "{BBD9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_json_verzeichnisinformationen", "aufgabe_json_verzeichnisinformationen\aufgabe_json_verzeichnisinformationen.csproj", "{A1A19635-4804-424F-8605-2835FD270837}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_json_fizzbuzz", "aufgabe_json_fizzbuzz\aufgabe_json_fizzbuzz.csproj", "{33B86928-9C68-437B-AEC8-487E9E0AF421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_erweiterungsmethoden", "10_erweiterungsmethoden", "{811050E6-C3EE-45C8-95FB-A901A7AF4BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_erweiterungsmethoden_stringextension", "aufgabe_erweiterungsmethoden_stringextension\aufgabe_erweiterungsmethoden_stringextension.csproj", "{29A60354-D206-4882-B9CD-8A7F1F0F3CA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12_linq", "12_linq", "{4D8213B0-EF3D-4FAC-8916-C2C57FD49E64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_linq_filter", "aufgabe_linq_filter\aufgabe_linq_filter.csproj", "{410E75FA-EE69-46BB-8D59-8705A6677B6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +156,18 @@ Global
 		{A1A19635-4804-424F-8605-2835FD270837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1A19635-4804-424F-8605-2835FD270837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A19635-4804-424F-8605-2835FD270837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B86928-9C68-437B-AEC8-487E9E0AF421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B86928-9C68-437B-AEC8-487E9E0AF421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B86928-9C68-437B-AEC8-487E9E0AF421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B86928-9C68-437B-AEC8-487E9E0AF421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A60354-D206-4882-B9CD-8A7F1F0F3CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A60354-D206-4882-B9CD-8A7F1F0F3CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A60354-D206-4882-B9CD-8A7F1F0F3CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A60354-D206-4882-B9CD-8A7F1F0F3CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410E75FA-EE69-46BB-8D59-8705A6677B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410E75FA-EE69-46BB-8D59-8705A6677B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410E75FA-EE69-46BB-8D59-8705A6677B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410E75FA-EE69-46BB-8D59-8705A6677B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46217D5-1350-4583-BAA6-3945F81CE41E} = {6265E9DC-01C0-463F-A41C-05D93BF623F1}
@@ -168,5 +190,8 @@ Global
 		{85B03E94-66C7-4C06-B21C-E5301510E537} = {B2C1C8E0-54EC-4DB7-9544-9AF59DB3253C}
 		{BCD1AE5D-79E6-4E8A-97BD-B04075248DDF} = {B2C1C8E0-54EC-4DB7-9544-9AF59DB3253C}
 		{A1A19635-4804-424F-8605-2835FD270837} = {BBD96D1A-D356-4130-ABAE-B374F8CF3B9E}
+		{33B86928-9C68-437B-AEC8-487E9E0AF421} = {BBD96D1A-D356-4130-ABAE-B374F8CF3B9E}
+		{29A60354-D206-4882-B9CD-8A7F1F0F3CA0} = {811050E6-C3EE-45C8-95FB-A901A7AF4BFE}
+		{410E75FA-EE69-46BB-8D59-8705A6677B6C} = {4D8213B0-EF3D-4FAC-8916-C2C57FD49E64}
 	EndGlobalSection
 EndGlobal
