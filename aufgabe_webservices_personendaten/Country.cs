@@ -8,5 +8,5 @@ public class Country
     public string CountryId { get; set; }
     
     [JsonPropertyName("probability")]
-    public double Probability { get; set; }
+    public float Probability { get; set; }
 }
