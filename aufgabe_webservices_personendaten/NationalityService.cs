@@ -8,8 +8,8 @@ public class NationalityService
 
         HttpClient nationalityClient = new HttpClient();
 
-        string jsonAge = await nationalityClient.GetStringAsync(nationalityURL);
+        string jsonNationality = await nationalityClient.GetStringAsync(nationalityURL);
 
-        return jsonAge;
+        return jsonNationality;
     }
 }
