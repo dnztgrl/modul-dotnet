@@ -100,6 +100,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19 - Entity Framework Core"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_efcore_warenlager", "aufgabe_efcore_warenlager\aufgabe_efcore_warenlager.csproj", "{D49BD908-3209-41B1-81A5-0935F27EAB89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_efcore_schneckenrennen", "aufgabe_efcore_schneckenrennen\aufgabe_efcore_schneckenrennen.csproj", "{194A3046-4750-4BE6-8283-0A79EBBAE943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aufgabe_efcore_kontaktverwaltung", "aufgabe_efcore_kontaktverwaltung\aufgabe_efcore_kontaktverwaltung.csproj", "{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -242,6 +246,14 @@ Global
 		{D49BD908-3209-41B1-81A5-0935F27EAB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D49BD908-3209-41B1-81A5-0935F27EAB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D49BD908-3209-41B1-81A5-0935F27EAB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194A3046-4750-4BE6-8283-0A79EBBAE943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194A3046-4750-4BE6-8283-0A79EBBAE943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194A3046-4750-4BE6-8283-0A79EBBAE943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194A3046-4750-4BE6-8283-0A79EBBAE943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46217D5-1350-4583-BAA6-3945F81CE41E} = {6265E9DC-01C0-463F-A41C-05D93BF623F1}
@@ -278,5 +290,7 @@ Global
 		{CBB59E4B-9A0D-483B-95C8-A037663903FC} = {F96E0D35-3276-4D14-A9E2-1C29939B2FA7}
 		{E8A450A8-2003-4F88-B05D-F4264C73AAF2} = {F96E0D35-3276-4D14-A9E2-1C29939B2FA7}
 		{D49BD908-3209-41B1-81A5-0935F27EAB89} = {3788F861-9E7A-4E51-9612-E093B4EEFFE2}
+		{194A3046-4750-4BE6-8283-0A79EBBAE943} = {3788F861-9E7A-4E51-9612-E093B4EEFFE2}
+		{1CD93CE6-4635-4598-BDF8-D67F26D8DD1A} = {3788F861-9E7A-4E51-9612-E093B4EEFFE2}
 	EndGlobalSection
 EndGlobal
